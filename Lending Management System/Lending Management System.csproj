@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56883F31-B3A1-46F2-8555-135BE8384D3F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lending_Management_System</RootNamespace>
+    <AssemblyName>Lending Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Lending_Management_System.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>..\..\..\..\..\Thesis projects\DLLS\AForge.NET Framework-2.2.5-(libs only)\Release\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>..\..\..\..\..\Thesis projects\DLLS\AForge.NET Framework-2.2.5-(libs only)\Release\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>..\..\..\..\..\Thesis projects\DLLS\AForge.NET Framework-2.2.5-(libs only)\Release\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.4">
+      <HintPath>..\..\..\..\..\Thesis projects\DLLS\Bunifu_UI_v1.4.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.2015.12.0.2.2403\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.2015.12.0.2.2403\lib\net40\Microsoft.ReportViewer.DataVisualization.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.2015.12.0.2.2403\lib\net40\Microsoft.ReportViewer.Design.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.2015.12.0.2.2403\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.2015.12.0.2.2403\lib\net40\Microsoft.ReportViewer.WebDesign.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.2015.12.0.2.2403\lib\net40\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.2015.12.0.2.2403\lib\net40\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.2015.12.0.2.2403\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Thesis projects\DLLS\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tulpep.NotificationWindow, Version=1.1.37.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tulpep.NotificationWindow.1.1.37\lib\net40\Tulpep.NotificationWindow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ViewModels\frmDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmDatabase.Designer.cs">
+      <DependentUpon>frmDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmPostingGuide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmPostingGuide.Designer.cs">
+      <DependentUpon>frmPostingGuide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmLedgerCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmLedgerCard.Designer.cs">
+      <DependentUpon>frmLedgerCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\PostingGuideDetails.cs" />
+    <Compile Include="Reports\frmCollectiblesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmCollectiblesReport.Designer.cs">
+      <DependentUpon>frmCollectiblesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmLedger.Designer.cs">
+      <DependentUpon>frmLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmRemittanceSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmRemittanceSummary.Designer.cs">
+      <DependentUpon>frmRemittanceSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\Borrower.cs" />
+    <Compile Include="Objects\User_acc.cs" />
+    <Compile Include="UserControl\frmAccountSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmAccountSettings.Designer.cs">
+      <DependentUpon>frmAccountSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmAddress.Designer.cs">
+      <DependentUpon>frmAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\frmSummary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmSummary.Designer.cs">
+      <DependentUpon>frmSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\Loans.cs" />
+    <Compile Include="Reports\frmPastDueRprt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmPastDueRprt.Designer.cs">
+      <DependentUpon>frmPastDueRprt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\SummaryReportFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\SummaryReportFrm.Designer.cs">
+      <DependentUpon>SummaryReportFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\frmPastDue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmPastDue.Designer.cs">
+      <DependentUpon>frmPastDue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\BorrowerRemittances.cs" />
+    <Compile Include="Objects\PastDue.cs" />
+    <Compile Include="Reports\frmRemittanceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmRemittanceReport.Designer.cs">
+      <DependentUpon>frmRemittanceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\frmRemittances.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmRemittances.Designer.cs">
+      <DependentUpon>frmRemittances.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Collectibles_m.cs" />
+    <Compile Include="UserControl\frmCollectibles.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmCollectibles.Designer.cs">
+      <DependentUpon>frmCollectibles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\ledger.cs" />
+    <Compile Include="ViewModels\frmAccReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmAccReg.Designer.cs">
+      <DependentUpon>frmAccReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmArea.Designer.cs">
+      <DependentUpon>frmArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmLoanApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmLoanApplication.Designer.cs">
+      <DependentUpon>frmLoanApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmRemit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmRemit.Designer.cs">
+      <DependentUpon>frmRemit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ledgerReportFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ledgerReportFrm.Designer.cs">
+      <DependentUpon>ledgerReportFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\remittance.cs" />
+    <Compile Include="UserControl\frmLoanApplist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmLoanApplist.Designer.cs">
+      <DependentUpon>frmLoanApplist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\frmPosting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmPosting.Designer.cs">
+      <DependentUpon>frmPosting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\LoanModel.cs" />
+    <Compile Include="UserControl\frmBorrowerAcc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmBorrowerAcc.Designer.cs">
+      <DependentUpon>frmBorrowerAcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmBorrowerReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmBorrowerReg.Designer.cs">
+      <DependentUpon>frmBorrowerReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmCamera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmCamera.Designer.cs">
+      <DependentUpon>frmCamera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmCollector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmCollector.Designer.cs">
+      <DependentUpon>frmCollector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmInterest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmInterest.Designer.cs">
+      <DependentUpon>frmInterest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmPosition.Designer.cs">
+      <DependentUpon>frmPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\BorrowerModel.cs" />
+    <Compile Include="UserControl\frmLoadBorrowerList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmLoadBorrowerList.Designer.cs">
+      <DependentUpon>frmLoadBorrowerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\frmSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmSettings.Designer.cs">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmTerm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmTerm.Designer.cs">
+      <DependentUpon>frmTerm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\frmUserReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewModels\frmUserReg.Designer.cs">
+      <DependentUpon>frmUserReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\db_connect.cs" />
+    <Compile Include="Modules\Settings.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CollectiblesReport.rdlc" />
+    <EmbeddedResource Include="ViewModels\frmDatabase.resx">
+      <DependentUpon>frmDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmLedgerCard.resx">
+      <DependentUpon>frmLedgerCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PostingGuide.rdlc" />
+    <EmbeddedResource Include="Reports\frmCollectiblesReport.resx">
+      <DependentUpon>frmCollectiblesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmLedger.resx">
+      <DependentUpon>frmLedger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmRemittanceSummary.resx">
+      <DependentUpon>frmRemittanceSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\LedgerCard.rdlc" />
+    <EmbeddedResource Include="Reports\PostingReport.rdlc" />
+    <EmbeddedResource Include="RemittanceSummary.rdlc" />
+    <EmbeddedResource Include="UserControl\frmAccountSettings.resx">
+      <DependentUpon>frmAccountSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmAddress.resx">
+      <DependentUpon>frmAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\frmSummary.resx">
+      <DependentUpon>frmSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PastDue_report.rdlc" />
+    <EmbeddedResource Include="Reports\BorrowerRemittanceReport.rdlc" />
+    <EmbeddedResource Include="Reports\frmPastDueRprt.resx">
+      <DependentUpon>frmPastDueRprt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SummaryReport.rdlc" />
+    <EmbeddedResource Include="Reports\SummaryReportFrm.resx">
+      <DependentUpon>SummaryReportFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\frmPastDue.resx">
+      <DependentUpon>frmPastDue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmRemittanceReport.resx">
+      <DependentUpon>frmRemittanceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\frmCollectibles.resx">
+      <DependentUpon>frmCollectibles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\frmRemittances.resx">
+      <DependentUpon>frmRemittances.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmAccReg.resx">
+      <DependentUpon>frmAccReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmArea.resx">
+      <DependentUpon>frmArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmBorrowerReg.resx">
+      <DependentUpon>frmBorrowerReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmCamera.resx">
+      <DependentUpon>frmCamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmCollector.resx">
+      <DependentUpon>frmCollector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmInterest.resx">
+      <DependentUpon>frmInterest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmLoanApplication.resx">
+      <DependentUpon>frmLoanApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmPostingGuide.resx">
+      <DependentUpon>frmPostingGuide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmRemit.resx">
+      <DependentUpon>frmRemit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ledgerReportFrm.resx">
+      <DependentUpon>ledgerReportFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ledgerReport.rdlc" />
+    <EmbeddedResource Include="UserControl\frmLoanApplist.resx">
+      <DependentUpon>frmLoanApplist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\frmPosting.resx">
+      <DependentUpon>frmPosting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmPosition.resx">
+      <DependentUpon>frmPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\frmBorrowerAcc.resx">
+      <DependentUpon>frmBorrowerAcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\frmLoadBorrowerList.resx">
+      <DependentUpon>frmLoadBorrowerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmTerm.resx">
+      <DependentUpon>frmTerm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\frmUserReg.resx">
+      <DependentUpon>frmUserReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\BorrowerRemittances.datasource" />
+    <None Include="Properties\DataSources\Collectibles.datasource" />
+    <None Include="Properties\DataSources\Collectibles1.datasource" />
+    <None Include="Properties\DataSources\frmLoanApplication.datasource" />
+    <None Include="Properties\DataSources\frmRemittanceReport.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.address.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.borrowerAcc.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.BorrowerModel.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.db_connect.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.ledger.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.LoanModel.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.loans.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.remittance.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.remittances.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.remittances1.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.Settings.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Modules.user.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Objects.ledger.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Objects.Loans.datasource" />
+    <None Include="Properties\DataSources\Lending_Management_System.Objects.PostingGuideDetails.datasource" />
+    <None Include="Properties\DataSources\Loans.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cancel_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Save_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subtract_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Search_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Trash_Can_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Add_User_Male_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Checked_Checkbox_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Registration Skin Type 7_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Web_Camera_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Pictures_Folder_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Services_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Edit_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Add_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paper Money_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Duration Finance_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Duration Finance_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Management_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Combo_Chart_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Budget_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cash_Register_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cash_Register_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Budget_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Combo_Chart_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Collectibles_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cash_in_Hand_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Conference_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_General_Ledger_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Graph_Report_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Schedule_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Services_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Conference_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General Ledger_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_General_Ledger_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Budget_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Print_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cash Register_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cash_in_Hand_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Collectibles_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cash in Hand_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_more_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_more_161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_view_161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_edit_property_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_edit_property_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_edit_file_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_edit_file_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_view_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_view_16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lending Management System", "Lending Management System\Lending Management System.csproj", "{56883F31-B3A1-46F2-8555-135BE8384D3F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BrarLendingInvestor", "BrarLendingInvestor\BrarLendingInvestor.vdproj", "{D19B0964-9806-4B53-9C4F-57F05CA407A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56883F31-B3A1-46F2-8555-135BE8384D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56883F31-B3A1-46F2-8555-135BE8384D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56883F31-B3A1-46F2-8555-135BE8384D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56883F31-B3A1-46F2-8555-135BE8384D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19B0964-9806-4B53-9C4F-57F05CA407A8}.Debug|Any CPU.ActiveCfg = Debug
+		{D19B0964-9806-4B53-9C4F-57F05CA407A8}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,332 @@
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLogin.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmSummary.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.Form1.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPastDueRprt.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.SummaryReportFrm.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPastDue.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmRemittanceReport.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmCollectibles.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmRemittances.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmAccReg.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmArea.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmBorrowerReg.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmCamera.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmCollector.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmInterest.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLoanApplication.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmRemit.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.ledgerReportFrm.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLoanApplist.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPosting.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPosition.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmBorrowerAcc.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLoadBorrowerList.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmMain.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmSettings.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmTerm.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmUserReg.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.Properties.Resources.resources
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.csproj.GenerateResource.Cache
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\RdlCompile.cache
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\RdlCompile.compiled
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Lending Management System.exe.config
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Lending Management System.exe
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Lending Management System.pdb
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\AForge.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\AForge.Video.DirectShow.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\AForge.Video.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Bunifu_UI_v1.4.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.Shared.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\FlashControlV71.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\MySql.Data.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Tulpep.NotificationWindow.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ShockwaveFlashObjects.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\stdole.dll
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\AForge.xml
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\AForge.Video.xml
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\bin\Debug\AForge.Video.DirectShow.xml
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.exe
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.pdb
+D:\Visual Studio Projects\Clients\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.csprojResolveAssemblyReference.cache
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Lending Management System.exe.config
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Lending Management System.exe
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Lending Management System.pdb
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\FlashControlV71.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\MySql.Data.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Tulpep.NotificationWindow.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\EnvDTE.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\EnvDTE80.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\stdole.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj80.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj2.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\MySql.Data.xml
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\EnvDTE.xml
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\EnvDTE80.xml
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj.xml
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj80.xml
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj2.xml
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.csproj.Lending Management System.exe.config
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLedger.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmRemittanceSummary.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.ViewModels.frmAddress.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLogin.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmSummary.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPastDueRprt.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.SummaryReportFrm.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPastDue.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmRemittanceReport.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmCollectibles.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmRemittances.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmAccReg.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmArea.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmBorrowerReg.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmCamera.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmCollector.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmInterest.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLoanApplication.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmRemit.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.ledgerReportFrm.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLoanApplist.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPosting.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPosition.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmBorrowerAcc.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLoadBorrowerList.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmMain.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmSettings.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmTerm.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmUserReg.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.Properties.Resources.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.csproj.GenerateResource.Cache
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\RdlCompile.cache
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\RdlCompile.compiled
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.exe
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.pdb
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Lending Management System.exe.config
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Lending Management System.exe
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Lending Management System.pdb
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.Design.DLL
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\MySql.Data.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Tulpep.NotificationWindow.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\EnvDTE.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\EnvDTE80.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\stdole.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj80.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.MSXML.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj2.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\MySql.Data.xml
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\EnvDTE.xml
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\EnvDTE80.xml
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj.xml
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj80.xml
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\VSLangProj2.xml
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.csproj.Lending Management System.exe.config
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmCollectiblesReport.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLedger.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmRemittanceSummary.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.ViewModels.frmAddress.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLogin.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmSummary.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPastDueRprt.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.SummaryReportFrm.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPastDue.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmRemittanceReport.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmCollectibles.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmRemittances.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmAccReg.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmArea.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmBorrowerReg.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmCamera.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmCollector.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmInterest.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLoanApplication.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmRemit.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.ledgerReportFrm.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLoanApplist.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPosting.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPosition.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmBorrowerAcc.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLoadBorrowerList.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmMain.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmSettings.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmTerm.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmUserReg.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.Properties.Resources.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.csproj.GenerateResource.Cache
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\RdlCompile.cache
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\RdlCompile.compiled
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.exe
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.pdb
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmCollectiblesReport.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.ucAccountSettings.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.ucAccountSettings.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLedgerCard.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmLedgerCard.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPostingGuide.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmDatabase.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmDatabase.resources
+C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPostingGuide.resources
