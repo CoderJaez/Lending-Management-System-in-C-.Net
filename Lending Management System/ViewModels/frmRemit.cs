@@ -35,7 +35,8 @@ namespace Lending_Management_System
                     tbAmountRemit.Text = "";
                     return 0;
                 }
-            } set {
+            }
+            set {
                 tbAmountRemit.Text = Convert.ToString(value);
             }
         }
@@ -91,7 +92,8 @@ namespace Lending_Management_System
             DataTable dt = new DataTable();
             dt.Columns.Add("Text");
             dt.Columns.Add("Value");
-            
+
+            dt.Rows.Add("", "");
             foreach (DataRow row in users.loadCollectorList().Rows)
             {
                 dt.Rows.Add(row["name"].ToString().ToUpper(), row["collectorID"]);
@@ -140,6 +142,7 @@ namespace Lending_Management_System
             remit.dateRemit = dtDateRemit.Value.ToString("yyyy-MM-dd");
             remit.prevBalance = (lblBalanceDue.Text != "") ? Convert.ToDouble(lblBalanceDue.Text.Replace(",", "")) : 0;
             remit.ledgerID = Convert.ToInt32(ledgerID);
+
             if (remit.isPaymentRemitted())
                 return;
 

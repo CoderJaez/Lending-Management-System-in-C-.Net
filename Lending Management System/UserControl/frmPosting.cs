@@ -113,7 +113,7 @@ namespace Lending_Management_System
             Totcollectibles = 0;
             foreach (DataRow row in loan.loadPostingList(start,limit,where).Rows)
             {
-                dgPostingList.Rows.Add(no+1,DateTime.Parse(row["dueDate"].ToString()).ToShortDateString(),row["loanNo"].ToString(), double.Parse(row["matValue"].ToString()).ToString("N"), row["bname"].ToString(), row["citymunDesc"].ToString(), double.Parse(row["returnAmount"].ToString()).ToString("N"), double.Parse(row["interest"].ToString()).ToString("N"), double.Parse(row["totalAmount"].ToString()).ToString("N"));
+                dgPostingList.Rows.Add(false, no+1,DateTime.Parse(row["dueDate"].ToString()).ToShortDateString(),row["loanNo"].ToString(), double.Parse(row["matValue"].ToString()).ToString("N"), row["bname"].ToString(), row["citymunDesc"].ToString(), double.Parse(row["returnAmount"].ToString()).ToString("N"), double.Parse(row["interest"].ToString()).ToString("N"), double.Parse(row["totalAmount"].ToString()).ToString("N"));
                 dgPostingList.Rows[no].Cells[0].Tag = row["ledgerNo"].ToString();
                 no++;
                 Totcollectibles += double.Parse(row["totalAmount"].ToString());
@@ -229,24 +229,28 @@ namespace Lending_Management_System
         {
             if (e.RowIndex >= 0)
             {
-                switch (e.ColumnIndex)
+                switch (dgPostingList.Columns[e.ColumnIndex].Name)
                 {
-                    case 9:
+                    case "Remit":
                         frmRemit remit = new frmRemit();
                         remit.ledgerID = dgPostingList.Rows[e.RowIndex].Cells[0].Tag.ToString();
-                        remit.dueDate = dgPostingList.Rows[e.RowIndex].Cells[1].Value.ToString();
-                        remit.borrower = dgPostingList.Rows[e.RowIndex].Cells[4].Value.ToString();
-                        remit.loanNo = dgPostingList.Rows[e.RowIndex].Cells[2].Value.ToString();
-                        remit.maturityVal = dgPostingList.Rows[e.RowIndex].Cells[3].Value.ToString();
-                        remit.area = dgPostingList.Rows[e.RowIndex].Cells[5].Value.ToString();
-                        remit.perRemit = dgPostingList.Rows[e.RowIndex].Cells[8].Value.ToString();
-                        remit.interestDue = dgPostingList.Rows[e.RowIndex].Cells[7].Value.ToString();
-                        remit.returnDue = dgPostingList.Rows[e.RowIndex].Cells[6].Value.ToString();
+                        remit.dueDate = dgPostingList.Rows[e.RowIndex].Cells["DueDate"].Value.ToString();
+                        remit.borrower = dgPostingList.Rows[e.RowIndex].Cells["Borrower"].Value.ToString();
+                        remit.loanNo = dgPostingList.Rows[e.RowIndex].Cells["LoanNo"].Value.ToString();
+                        remit.maturityVal = dgPostingList.Rows[e.RowIndex].Cells["MatValue"].Value.ToString();
+                        remit.area = dgPostingList.Rows[e.RowIndex].Cells["Area"].Value.ToString();
+                        remit.perRemit = dgPostingList.Rows[e.RowIndex].Cells["Daily"].Value.ToString();
+                        remit.interestDue = dgPostingList.Rows[e.RowIndex].Cells["Interest"].Value.ToString();
+                        remit.returnDue = dgPostingList.Rows[e.RowIndex].Cells["Return"].Value.ToString();
                         remit.loadLastPayment();
                         remit.loadInterestRate();
                         remit.clearPayment();
                         remit.post = this;
                         remit.ShowDialog();
+                        break;
+                    case "checkbox":
+                        dgPostingList.CurrentCell.Value = (bool)dgPostingList.CurrentCell.Value ? false:true;
+
                         break;
                     default:
                         break;
@@ -263,6 +267,12 @@ namespace Lending_Management_System
         private void frmPosting_Load(object sender, EventArgs e)
         {
             loadCollectibles();
+        }
+
+        private void btnMakeRemit_Click(object sender, EventArgs e)
+        {
+            frmMultiPosting post = new frmMultiPosting();
+            post.ShowDialog();
         }
     }
 }

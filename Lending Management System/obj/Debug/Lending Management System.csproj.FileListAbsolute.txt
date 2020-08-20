@@ -330,3 +330,5 @@ D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lend
 D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmDatabase.resources
 C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmDatabase.resources
 C:\Users\Jaezer\Desktop\brar lending investor\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmPostingGuide.resources
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending Management System.csprojResolveAssemblyReference.cache
+D:\Visual Studio Projects\c#\Client\GRUPEET SINGH\Lending Management System\Lending Management System\Lending Management System\obj\Debug\Lending_Management_System.frmMultiPosting.resources

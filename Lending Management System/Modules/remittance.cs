@@ -31,6 +31,28 @@ namespace Lending_Management_System.Modules
         private int start = 0;
         private int limit = 100;
         private string where = null;
+
+        public DataTable GetDuePayments(List<string> ledgerID)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                connect();
+                cmd.CommandText = $"SELECT l.`loanNo`, loan.`bname`, l.`dueDate`, l.`matValue`,loan.`balance`, l.`totalAmount`,(SELECT r.balance FROM tbl_remit AS r WHERE r.loanNo = l.`loanNo` ORDER BY r.transactionNo DESC LIMIT 1) AS prevBal FROM tbl_ledger AS l INNER JOIN loan ON loan.`loanNO` = l.`loanNo`  WHERE  l.`isRemitted` = FALSE AND l.ledgerID IN ({string.Join(",", ledgerID)} ";
+                reader = cmd.ExecuteReader();
+                dt.Load(reader);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            } finally
+            {
+                cmd.Dispose();
+                reader.Dispose();
+                disconnect_db();
+            }
+            return dt;
+        }
         private string getTransactionNo()
         {
 

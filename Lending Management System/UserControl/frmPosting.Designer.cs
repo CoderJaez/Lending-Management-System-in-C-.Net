@@ -54,16 +54,18 @@
             this.lblPage = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dgPostingList = new System.Windows.Forms.DataGridView();
+            this.btnMakeRemit = new System.Windows.Forms.Button();
+            this.checkbox = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.DueDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LoanNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MatValue = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Borrower = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Area = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Return = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Interest = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Daily = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Remit = new System.Windows.Forms.DataGridViewButtonColumn();
             this.mainPanel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -116,6 +118,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnMakeRemit);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.cgDate);
             this.groupBox1.Controls.Add(this.label5);
@@ -301,16 +304,17 @@
             this.dgPostingList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgPostingList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgPostingList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.checkbox,
             this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7,
-            this.Column8,
-            this.Column9,
-            this.Column10});
+            this.DueDate,
+            this.LoanNo,
+            this.MatValue,
+            this.Borrower,
+            this.Area,
+            this.Return,
+            this.Interest,
+            this.Daily,
+            this.Remit});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -345,6 +349,35 @@
             this.dgPostingList.CellMouseLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgPostingList_CellMouseLeave);
             this.dgPostingList.CellMouseMove += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgPostingList_CellMouseMove);
             // 
+            // btnMakeRemit
+            // 
+            this.btnMakeRemit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(141)))), ((int)(((byte)(188)))));
+            this.btnMakeRemit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(127)))), ((int)(((byte)(169)))));
+            this.btnMakeRemit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(77)))), ((int)(((byte)(116)))));
+            this.btnMakeRemit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnMakeRemit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMakeRemit.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMakeRemit.ForeColor = System.Drawing.Color.White;
+            this.btnMakeRemit.Image = global::Lending_Management_System.Properties.Resources.icons8_Save_16;
+            this.btnMakeRemit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMakeRemit.Location = new System.Drawing.Point(492, 93);
+            this.btnMakeRemit.Name = "btnMakeRemit";
+            this.btnMakeRemit.Size = new System.Drawing.Size(69, 25);
+            this.btnMakeRemit.TabIndex = 35;
+            this.btnMakeRemit.Text = "&Remit";
+            this.btnMakeRemit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnMakeRemit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMakeRemit.UseVisualStyleBackColor = false;
+            this.btnMakeRemit.Click += new System.EventHandler(this.btnMakeRemit_Click);
+            // 
+            // checkbox
+            // 
+            this.checkbox.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.checkbox.HeaderText = "";
+            this.checkbox.Name = "checkbox";
+            this.checkbox.ReadOnly = true;
+            this.checkbox.Width = 5;
+            // 
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
@@ -353,71 +386,71 @@
             this.Column1.ReadOnly = true;
             this.Column1.Width = 37;
             // 
-            // Column2
+            // DueDate
             // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
-            this.Column2.HeaderText = "Due Date";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 5;
+            this.DueDate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
+            this.DueDate.HeaderText = "Due Date";
+            this.DueDate.Name = "DueDate";
+            this.DueDate.ReadOnly = true;
+            this.DueDate.Width = 5;
             // 
-            // Column3
+            // LoanNo
             // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
-            this.Column3.HeaderText = "Loan No";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Width = 5;
+            this.LoanNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
+            this.LoanNo.HeaderText = "Loan No";
+            this.LoanNo.Name = "LoanNo";
+            this.LoanNo.ReadOnly = true;
+            this.LoanNo.Width = 5;
             // 
-            // Column4
+            // MatValue
             // 
-            this.Column4.HeaderText = "Maturity Value";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
+            this.MatValue.HeaderText = "Maturity Value";
+            this.MatValue.Name = "MatValue";
+            this.MatValue.ReadOnly = true;
             // 
-            // Column5
+            // Borrower
             // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
-            this.Column5.HeaderText = "Name";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            this.Column5.Width = 5;
+            this.Borrower.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
+            this.Borrower.HeaderText = "Name";
+            this.Borrower.Name = "Borrower";
+            this.Borrower.ReadOnly = true;
+            this.Borrower.Width = 5;
             // 
-            // Column6
+            // Area
             // 
-            this.Column6.HeaderText = "Area";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
+            this.Area.HeaderText = "Area";
+            this.Area.Name = "Area";
+            this.Area.ReadOnly = true;
             // 
-            // Column7
+            // Return
             // 
-            this.Column7.HeaderText = "Return";
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
+            this.Return.HeaderText = "Return";
+            this.Return.Name = "Return";
+            this.Return.ReadOnly = true;
             // 
-            // Column8
+            // Interest
             // 
-            this.Column8.HeaderText = "Interest";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
+            this.Interest.HeaderText = "Interest";
+            this.Interest.Name = "Interest";
+            this.Interest.ReadOnly = true;
             // 
-            // Column9
+            // Daily
             // 
-            this.Column9.HeaderText = "Daily Amount";
-            this.Column9.Name = "Column9";
-            this.Column9.ReadOnly = true;
+            this.Daily.HeaderText = "Daily Amount";
+            this.Daily.Name = "Daily";
+            this.Daily.ReadOnly = true;
             // 
-            // Column10
+            // Remit
             // 
-            this.Column10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column10.HeaderText = "Action";
-            this.Column10.Name = "Column10";
-            this.Column10.ReadOnly = true;
-            this.Column10.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column10.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Column10.Text = "Remit";
-            this.Column10.UseColumnTextForButtonValue = true;
-            this.Column10.Width = 64;
+            this.Remit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.Remit.HeaderText = "Action";
+            this.Remit.Name = "Remit";
+            this.Remit.ReadOnly = true;
+            this.Remit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Remit.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Remit.Text = "Remit";
+            this.Remit.UseColumnTextForButtonValue = true;
+            this.Remit.Width = 64;
             // 
             // frmPosting
             // 
@@ -467,15 +500,17 @@
         private System.Windows.Forms.Label lblPage;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgPostingList;
-        private System.Windows.Forms.DataGridViewButtonColumn Column10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.Button btnMakeRemit;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn checkbox;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DueDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LoanNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MatValue;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Borrower;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Area;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Return;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Interest;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Daily;
+        private System.Windows.Forms.DataGridViewButtonColumn Remit;
     }
 }
