@@ -122,14 +122,14 @@ namespace Lending_Management_System
             //Maturity Date
             maturityDate = effDate.AddDays(n * duration_).ToString("MM/dd/yyyy");
             //Per remittances
-            perRemittances = maturityValue / duration_;
+            perRemittances = Math.Round(maturityValue / duration_,2);
             lblPerRemittance.Text = perRemittances.ToString("N");
             lblOutstandingCap.Text = principalAmount.ToString("N");
             lblUnearnedInt.Text = InterestAmount.ToString("N");
             lblTotalBal.Text = maturityValue.ToString("N");
 
-            returnValue = perRemittances - (InterestAmount / duration_);
-            returnInterest = (InterestAmount / duration_);
+            returnValue = Math.Round(perRemittances - (InterestAmount / duration_),2);
+            returnInterest = Math.Round(InterestAmount / duration_,2);
             //ledger
             try
             {

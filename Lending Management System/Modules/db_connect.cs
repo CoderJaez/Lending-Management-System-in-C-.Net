@@ -22,17 +22,17 @@ namespace Lending_Management_System.Modules
         public MySqlCommand cmd = new MySqlCommand();
         public MySqlDataReader reader;
         public MySqlTransaction transact;
+        public string ConnString { get { return  $"server= {server};user={user};password={pass};database={db};port={port};Convert Zero Datetime=True"; } }
 
 
 
         public void connect()
         {
-            string connect = $"server= {server};user={user};password={pass};database={db};port={port};Convert Zero Datetime=True";
             try
             {
               if (con.State == ConnectionState.Closed)
                 {
-                    con.ConnectionString = connect;
+                    con.ConnectionString = ConnString;
                     cmd.Connection = con;
                     con.Open();
                 }  

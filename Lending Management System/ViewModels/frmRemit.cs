@@ -73,7 +73,7 @@ namespace Lending_Management_System
             }
 
             lblBalanceDue.Text = lblBalance.Text;
-            if(lblBalance.Text !="")
+            if (lblBalance.Text !="")
             {
                 totalDue = Convert.ToDouble(lblBalanceDue.Text) + Convert.ToDouble(returnDue) + Convert.ToDouble(interestDue);
             } else
@@ -142,34 +142,43 @@ namespace Lending_Management_System
             remit.dateRemit = dtDateRemit.Value.ToString("yyyy-MM-dd");
             remit.prevBalance = (lblBalanceDue.Text != "") ? Convert.ToDouble(lblBalanceDue.Text.Replace(",", "")) : 0;
             remit.ledgerID = Convert.ToInt32(ledgerID);
+            remit.LoanBalance = loanBalace;
 
             if (remit.isPaymentRemitted())
+            {
+                MessageBox.Show("The Payment is already remitted by other cashier.");
                 return;
+            }
 
-            DialogResult result = MessageBox.Show($"Amount Remit: {amountRemit.ToString("N")} \nCollector: {cbCollector.Text} \nDate Remit: {dtDateRemit.Value.ToString("yyyy-MM-dd")} \n\nPLEASE OK TO PROCEED.","BRAR Lending Investor",MessageBoxButtons.OKCancel,MessageBoxIcon.Information);
+            DialogResult result = MessageBox.Show($"Amount Remit: {amountRemit.ToString("N")} \nCollector: {cbCollector.Text} \nDate Remit: {dtDateRemit.Value.ToString("yyyy-MM-dd")} \n\nPLEASE CLICK OK TO PROCEED.", "JaezerTech Lending System", MessageBoxButtons.OKCancel,MessageBoxIcon.Information);
             if (result == DialogResult.Cancel)
                 return;
 
+            if(remit.makeRemit())
+            {
+                MessageBox.Show("The payment is successfully remitted.", "JaezerTech Lending System");
+                this.Close();
+                post.loadCollectibles();
+            }
+            //if (loanBalace <= amountRemit)
+            //{
+            //    if (remit.makeRemit() && remit.updateLoanPaymentAndAccount() && remit.updateLedger())
+            //    {
+            //        MessageBox.Show("The payment is successfully remitted.\n The loan is now Paid. ", "JaezerTech Lending System");
+            //        this.Close();
+            //        post.loadCollectibles();
+            //    }
+            //}
+            //else
+            //{
+            //    if (remit.makeRemit() && remit.updateLoanPayment() && remit.updateLedger())
+            //    {
+            //        MessageBox.Show("The payment is successfully remitted.", "JaezerTech Lending System");
+            //        this.Close();
+            //        post.loadCollectibles();
+            //    }
+            //}
 
-            if (loanBalace <= amountRemit)
-            {
-                if (remit.makeRemit() && remit.updateLoanPaymentAndAccount() && remit.updateLedger())
-                {
-                    MessageBox.Show("The payment is successfully remitted.\n The loan is now Paid. ", "Zeustech Lending System");
-                    this.Close();
-                    post.loadCollectibles();
-                }
-            }
-            else
-            {
-                if (remit.makeRemit() && remit.updateLoanPayment() && remit.updateLedger())
-                {
-                    MessageBox.Show("The payment is successfully remitted.", "Zeustech Lending System");
-                    this.Close();
-                    post.loadCollectibles();
-                }
-            }
-                
 
 
         }
@@ -180,7 +189,7 @@ namespace Lending_Management_System
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (tbAmountRemit.Text != "" && cbCollector.SelectedValue != null )
+            if (tbAmountRemit.Text != "" && cbCollector.Text != "" )
             {
                 if (Convert.ToInt32(tbAmountRemit.Text) <= 0)
                 {
@@ -217,13 +226,48 @@ namespace Lending_Management_System
         {
             if (tbAmountRemit.Text != "")
             {
-                earnedInterest = amountRemit * (interestRate / 100);
-                returnAmount = amountRemit - earnedInterest;
+                if (amountRemit <= double.Parse(lblTotalDue.Text.Replace(",", "")))
+                {
+                    earnedInterest = double.Parse(lblInterestDue.Text.Replace(",",""));
+                    returnAmount = amountRemit - earnedInterest;
+                    returnAmount = returnAmount < 0 ? 0 : returnAmount;
+                    earnedInterest = amountRemit < earnedInterest ? amountRemit : earnedInterest;
+                   
+                } else if (amountRemit >= double.Parse(lblTotalDue.Text.Replace(",", "")) && amountRemit % (earnedInterest + double.Parse(returnDue)) == 0)
+                {
+                    earnedInterest = double.Parse(lblInterestDue.Text.Replace(",", ""));
+                    returnAmount = double.Parse(returnDue);
+                    double n = amountRemit / ( earnedInterest + double.Parse(returnDue));
+                    returnAmount = 0;
+                    earnedInterest = 0;
+                    for (int i = 0; i < (int)n; i++)
+                    {
+                        returnAmount += double.Parse(returnDue);
+                        earnedInterest += double.Parse(lblInterestDue.Text.Replace(",", ""));
+                    }
+
+                } else
+                {
+                    earnedInterest = double.Parse(lblInterestDue.Text.Replace(",",""));
+                    returnAmount = double.Parse(returnDue);
+                    double m = amountRemit / (earnedInterest + double.Parse(returnDue));
+                    returnAmount = 0;
+                    earnedInterest = 0;
+                    for (int i = 0; i < (int)m; i++)
+                    {
+                        returnAmount += double.Parse(returnDue);
+                        earnedInterest += double.Parse(lblInterestDue.Text.Replace(",", ""));
+                    }
+
+
+                    returnAmount += amountRemit - (earnedInterest + returnAmount);
+                }
                 balance = Convert.ToDouble(lblTotalDue.Text.Replace(",", "")) - (earnedInterest + returnAmount);
                 balance = (balance < 0) ? 0 : balance;
                 lblReturnPaid.Text = returnAmount.ToString("N");
                 lblInterestPaid.Text = earnedInterest.ToString("N");
                 lblBalancePayment.Text = balance.ToString("N");
+
             } else
             {
                 clearPayment();
@@ -234,7 +278,11 @@ namespace Lending_Management_System
         private void tbAmountRemit_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) && (e.KeyChar != (char)'.');
-
+            // only allow one decimal point
+            if (e.KeyChar == '.' && (sender as TextBox).Text.IndexOf('.') > -1)
+            {
+                e.Handled = true;
+            }
         }
 
         public void clearPayment()

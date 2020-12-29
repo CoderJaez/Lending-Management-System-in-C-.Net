@@ -248,7 +248,7 @@ namespace Lending_Management_System.Modules
             {
                 connect();
                 cmd.CommandTimeout = 0;
-                cmd.CommandText =$"SELECT * FROM loan where paid = false AND (loanNO LIKE @LoanNo OR bname LIKE @BorrowerName) {where}  LIMIT {start},{limit}";
+                cmd.CommandText =$"SELECT * FROM loan where paid = false AND balance > 0 AND (loanNO LIKE @LoanNo OR bname LIKE @BorrowerName) {where}  LIMIT {start},{limit}";
                 cmd.Parameters.AddWithValue("@LoanNo", $"%{search}%");
                 cmd.Parameters.AddWithValue("@BorrowerName", $"%{search}%");
               

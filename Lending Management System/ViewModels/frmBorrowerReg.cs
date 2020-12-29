@@ -179,7 +179,7 @@ namespace Lending_Management_System
 
         private bool validateUser()
         {
-            if (tbFname.Text != "" && tbLname.Text != "" && tbContact.Text != "" && tbAddress.Text != "" && tbOccupation.Text != "" && provDesc !="" && citymunDesc != "" && provDesc != "")
+            if (tbFname.Text != "" && tbLname.Text != "" && tbAddress.Text != ""  && provDesc !="" && citymunDesc != "" && provDesc != "")
             {
                 return true;
 

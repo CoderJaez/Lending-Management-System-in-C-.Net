@@ -35,7 +35,7 @@ namespace Lending_Management_System
         private int page = 1;
         private int entries = 0;
         private string where = "";
-
+        private List<string> LedgerIDs = new List<string>();
         public frmPosting()
         {
             InitializeComponent();
@@ -107,6 +107,7 @@ namespace Lending_Management_System
        
         public void loadCollectibles()
         {
+            LedgerIDs.Clear();
             where = _where();
             dgPostingList.Rows.Clear();
             int no = 0;
@@ -114,7 +115,7 @@ namespace Lending_Management_System
             foreach (DataRow row in loan.loadPostingList(start,limit,where).Rows)
             {
                 dgPostingList.Rows.Add(false, no+1,DateTime.Parse(row["dueDate"].ToString()).ToShortDateString(),row["loanNo"].ToString(), double.Parse(row["matValue"].ToString()).ToString("N"), row["bname"].ToString(), row["citymunDesc"].ToString(), double.Parse(row["returnAmount"].ToString()).ToString("N"), double.Parse(row["interest"].ToString()).ToString("N"), double.Parse(row["totalAmount"].ToString()).ToString("N"));
-                dgPostingList.Rows[no].Cells[0].Tag = row["ledgerNo"].ToString();
+                dgPostingList.Rows[no].Cells["checkbox"].Tag = row["ledgerNo"].ToString();
                 no++;
                 Totcollectibles += double.Parse(row["totalAmount"].ToString());
             }
@@ -233,7 +234,7 @@ namespace Lending_Management_System
                 {
                     case "Remit":
                         frmRemit remit = new frmRemit();
-                        remit.ledgerID = dgPostingList.Rows[e.RowIndex].Cells[0].Tag.ToString();
+                        remit.ledgerID = dgPostingList.Rows[e.RowIndex].Cells["checkbox"].Tag.ToString();
                         remit.dueDate = dgPostingList.Rows[e.RowIndex].Cells["DueDate"].Value.ToString();
                         remit.borrower = dgPostingList.Rows[e.RowIndex].Cells["Borrower"].Value.ToString();
                         remit.loanNo = dgPostingList.Rows[e.RowIndex].Cells["LoanNo"].Value.ToString();
@@ -250,7 +251,10 @@ namespace Lending_Management_System
                         break;
                     case "checkbox":
                         dgPostingList.CurrentCell.Value = (bool)dgPostingList.CurrentCell.Value ? false:true;
-
+                        if ((bool)dgPostingList.CurrentCell.Value)
+                            LedgerIDs.Add(dgPostingList.CurrentCell.Tag.ToString());
+                        else
+                            LedgerIDs.Remove(dgPostingList.CurrentCell.Tag.ToString());
                         break;
                     default:
                         break;
@@ -271,7 +275,14 @@ namespace Lending_Management_System
 
         private void btnMakeRemit_Click(object sender, EventArgs e)
         {
+            if(LedgerIDs.Count <= 0)
+            {
+                MessageBox.Show("No Payment checked. Please check the selected for payments");
+                return;
+            }
             frmMultiPosting post = new frmMultiPosting();
+            post.post = this;
+            post.LoadPaymentList(LedgerIDs);
             post.ShowDialog();
         }
     }

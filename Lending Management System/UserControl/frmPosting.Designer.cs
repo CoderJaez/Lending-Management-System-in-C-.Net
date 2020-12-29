@@ -38,6 +38,7 @@
             this.collectibles = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnMakeRemit = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.cgDate = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
@@ -54,7 +55,6 @@
             this.lblPage = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dgPostingList = new System.Windows.Forms.DataGridView();
-            this.btnMakeRemit = new System.Windows.Forms.Button();
             this.checkbox = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DueDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -134,6 +134,27 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "FILTER BY:";
+            // 
+            // btnMakeRemit
+            // 
+            this.btnMakeRemit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(141)))), ((int)(((byte)(188)))));
+            this.btnMakeRemit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(127)))), ((int)(((byte)(169)))));
+            this.btnMakeRemit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(77)))), ((int)(((byte)(116)))));
+            this.btnMakeRemit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnMakeRemit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMakeRemit.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMakeRemit.ForeColor = System.Drawing.Color.White;
+            this.btnMakeRemit.Image = global::Lending_Management_System.Properties.Resources.icons8_Save_16;
+            this.btnMakeRemit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMakeRemit.Location = new System.Drawing.Point(492, 93);
+            this.btnMakeRemit.Name = "btnMakeRemit";
+            this.btnMakeRemit.Size = new System.Drawing.Size(69, 25);
+            this.btnMakeRemit.TabIndex = 35;
+            this.btnMakeRemit.Text = "&Remit";
+            this.btnMakeRemit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnMakeRemit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMakeRemit.UseVisualStyleBackColor = false;
+            this.btnMakeRemit.Click += new System.EventHandler(this.btnMakeRemit_Click);
             // 
             // textBox1
             // 
@@ -348,27 +369,6 @@
             this.dgPostingList.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgPostingList_CellClick);
             this.dgPostingList.CellMouseLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgPostingList_CellMouseLeave);
             this.dgPostingList.CellMouseMove += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgPostingList_CellMouseMove);
-            // 
-            // btnMakeRemit
-            // 
-            this.btnMakeRemit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(141)))), ((int)(((byte)(188)))));
-            this.btnMakeRemit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(127)))), ((int)(((byte)(169)))));
-            this.btnMakeRemit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(77)))), ((int)(((byte)(116)))));
-            this.btnMakeRemit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.btnMakeRemit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMakeRemit.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMakeRemit.ForeColor = System.Drawing.Color.White;
-            this.btnMakeRemit.Image = global::Lending_Management_System.Properties.Resources.icons8_Save_16;
-            this.btnMakeRemit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMakeRemit.Location = new System.Drawing.Point(492, 93);
-            this.btnMakeRemit.Name = "btnMakeRemit";
-            this.btnMakeRemit.Size = new System.Drawing.Size(69, 25);
-            this.btnMakeRemit.TabIndex = 35;
-            this.btnMakeRemit.Text = "&Remit";
-            this.btnMakeRemit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMakeRemit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnMakeRemit.UseVisualStyleBackColor = false;
-            this.btnMakeRemit.Click += new System.EventHandler(this.btnMakeRemit_Click);
             // 
             // checkbox
             // 

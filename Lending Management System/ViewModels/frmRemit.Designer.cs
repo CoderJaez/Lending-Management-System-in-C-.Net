@@ -444,12 +444,13 @@
             this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.Image = global::Lending_Management_System.Properties.Resources.icons8_Save_16;
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(407, 170);
+            this.btnSave.Location = new System.Drawing.Point(394, 170);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(63, 25);
+            this.btnSave.Size = new System.Drawing.Size(76, 25);
             this.btnSave.TabIndex = 34;
-            this.btnSave.Text = "&Save";
+            this.btnSave.Text = "&Submit";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
