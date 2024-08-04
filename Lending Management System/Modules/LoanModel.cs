@@ -492,6 +492,16 @@ namespace Lending_Management_System.Modules
                     l.AccruedInterest = reader.GetDecimal("unearnedInterest");
                     l.DueDate = reader.GetDateTime("matDate").ToShortDateString();
                     l.Balance = reader.GetDecimal("balance");
+                    l.MaturityValue = reader.GetDecimal("matValue");
+                    
+                    try
+                    {
+                        l.AmountRemit = reader.GetDecimal("amountRemit");
+                    }
+                    catch
+                    {
+                    }
+                   
                     l.DateFullyPaid = (reader.GetBoolean("paid")) ? reader.GetDateTime("date_fullyPaid").ToShortDateString() : "";
                     LoanList.Add(l);
                 }

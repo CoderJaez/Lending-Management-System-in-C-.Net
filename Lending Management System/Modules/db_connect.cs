@@ -56,38 +56,37 @@ namespace Lending_Management_System.Modules
 
         public bool isConnected()
         {
-            string connect = $"server= {server};user={user};password={pass};database={db};port={port};Convert Zero Datetime=True";
-            try
+            string connect = $"server={server};user={user};password={pass};database={db};port={port};Convert Zero Datetime=True";
+
+            if (con.State == ConnectionState.Closed)
             {
-                if (con.State == ConnectionState.Closed)
-                {
-                    con.ConnectionString = connect;
-                    cmd.Connection = con;
-                    con.Open();
-                }
-                return true;
+                con.ConnectionString = connect;
+                cmd.Connection = con;
+                con.Open();
             }
-            catch (Exception)
-            {
-                return false;
-            }
+            return true;
         }
 
         public bool testConnectionDB(string connectionString)
         {
-            string connect = $"{connectionString}port={port};Convert Zero Datetime=True";
+            string connect = $"{connectionString}port={port};";
             try
             {
-                if (con.State == ConnectionState.Closed)
+                MySqlConnection _con;
+                using (_con = new MySqlConnection())
                 {
-                    con.ConnectionString = connect;
-                    cmd.Connection = con;
-                    con.Open();
+                    if (_con.State == ConnectionState.Closed)
+                    {
+                        _con.ConnectionString = connect;
+                        _con.Open();
+                    }
                 }
+                   
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.Message);
                 return false;
             }
         }

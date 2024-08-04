@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Lending_Management_System</RootNamespace>
     <AssemblyName>Lending Management System</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -36,6 +36,15 @@
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>Lending_Management_System.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AForge">
@@ -88,10 +97,12 @@
     </Reference>
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Thesis projects\DLLS\MySql.Data.dll</HintPath>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
@@ -469,18 +480,15 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\DataSources\BorrowerRemittances.datasource" />
     <None Include="Properties\DataSources\Collectibles.datasource" />
     <None Include="Properties\DataSources\Collectibles1.datasource" />
-    <None Include="Properties\DataSources\frmLoanApplication.datasource" />
-    <None Include="Properties\DataSources\frmRemittanceReport.datasource" />
     <None Include="Properties\DataSources\Lending_Management_System.Modules.address.datasource" />
     <None Include="Properties\DataSources\Lending_Management_System.Modules.borrowerAcc.datasource" />
     <None Include="Properties\DataSources\Lending_Management_System.Modules.BorrowerModel.datasource" />
     <None Include="Properties\DataSources\Lending_Management_System.Modules.db_connect.datasource" />
-    <None Include="Properties\DataSources\Lending_Management_System.Modules.ledger.datasource" />
     <None Include="Properties\DataSources\Lending_Management_System.Modules.LoanModel.datasource" />
-    <None Include="Properties\DataSources\Lending_Management_System.Modules.loans.datasource" />
     <None Include="Properties\DataSources\Lending_Management_System.Modules.remittance.datasource" />
     <None Include="Properties\DataSources\Lending_Management_System.Modules.remittances.datasource" />
     <None Include="Properties\DataSources\Lending_Management_System.Modules.remittances1.datasource" />
@@ -489,7 +497,6 @@
     <None Include="Properties\DataSources\Lending_Management_System.Objects.ledger.datasource" />
     <None Include="Properties\DataSources\Lending_Management_System.Objects.Loans.datasource" />
     <None Include="Properties\DataSources\Lending_Management_System.Objects.PostingGuideDetails.datasource" />
-    <None Include="Properties\DataSources\Loans.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -661,6 +668,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_view_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MySql.Data.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

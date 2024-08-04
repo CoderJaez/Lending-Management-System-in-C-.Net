@@ -182,9 +182,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(6, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(340, 37);
+            this.label1.Size = new System.Drawing.Size(419, 37);
             this.label1.TabIndex = 0;
-            this.label1.Text = "BRAR LENDING INVESTOR";
+            this.label1.Text = "Brar Punjab Lending Corporation";
             // 
             // SidebarPanel
             // 

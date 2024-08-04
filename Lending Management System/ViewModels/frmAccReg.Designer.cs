@@ -42,6 +42,7 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.tbSearch = new System.Windows.Forms.TextBox();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
@@ -57,7 +58,6 @@
             this.lblAccNo = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SearchBorrower.SuspendLayout();
@@ -210,6 +210,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(413, 60);
             this.panel2.TabIndex = 13;
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Location = new System.Drawing.Point(17, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(293, 20);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Note: Please Press \"Enter Key\" after searching Borrower";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label8
             // 
@@ -394,17 +405,6 @@
             this.label1.TabIndex = 14;
             this.label1.Text = "Account registration";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label3.Location = new System.Drawing.Point(17, 12);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(293, 20);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Note: Please Press \"Enter Key\" after searching Borrower";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // frmAccReg
             // 

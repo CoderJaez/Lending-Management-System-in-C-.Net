@@ -49,8 +49,8 @@ namespace Lending_Management_System
         private void btnConnect_Click(object sender, EventArgs e)
         {
             db_connect db = new db_connect();
-            string conString = $"server= {ServerTxt.Text};user={UsernameTxt.Text};password={PasswordTxt.Text};database={DatabaseNameTxt.Text};";
-
+            string conString = $"server={ServerTxt.Text};user={UsernameTxt.Text};password={PasswordTxt.Text};database={DatabaseNameTxt.Text};";
+            MessageBox.Show(conString);
             if (db.testConnectionDB(conString))
                 MessageBox.Show("Database connected.");
             else

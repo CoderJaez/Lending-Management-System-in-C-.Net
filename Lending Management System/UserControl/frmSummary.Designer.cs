@@ -50,18 +50,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dgSummary = new System.Windows.Forms.DataGridView();
-            this.No = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VeiwLoanDetails = new System.Windows.Forms.DataGridViewImageColumn();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tbSearch = new System.Windows.Forms.TextBox();
@@ -71,6 +59,8 @@
             this.cFullypaid = new System.Windows.Forms.CheckBox();
             this.cUnpaid = new System.Windows.Forms.CheckBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.lblAmountRemit = new System.Windows.Forms.Label();
             this.mainPanel2 = new Lending_Management_System.MainPanel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnFilter = new System.Windows.Forms.Button();
@@ -89,6 +79,20 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.No = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AmountRemitted = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VeiwLoanDetails = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -114,10 +118,12 @@
             this.groupBox2.Controls.Add(this.btnApplyLoan);
             this.groupBox2.Controls.Add(this.lblLoanNo);
             this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Controls.Add(this.lblAmountRemit);
             this.groupBox2.Controls.Add(this.lblEarnedInt);
             this.groupBox2.Controls.Add(this.lblAccruedInt);
             this.groupBox2.Controls.Add(this.lblBalance);
             this.groupBox2.Controls.Add(this.lblOutstandingCap);
+            this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.lblPrinciapal);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
@@ -143,7 +149,7 @@
             this.btnApplyLoan.ForeColor = System.Drawing.Color.White;
             this.btnApplyLoan.Image = ((System.Drawing.Image)(resources.GetObject("btnApplyLoan.Image")));
             this.btnApplyLoan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnApplyLoan.Location = new System.Drawing.Point(78, 306);
+            this.btnApplyLoan.Location = new System.Drawing.Point(78, 330);
             this.btnApplyLoan.Name = "btnApplyLoan";
             this.btnApplyLoan.Size = new System.Drawing.Size(64, 26);
             this.btnApplyLoan.TabIndex = 11;
@@ -156,7 +162,7 @@
             // 
             this.lblLoanNo.BackColor = System.Drawing.SystemColors.Control;
             this.lblLoanNo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblLoanNo.Location = new System.Drawing.Point(6, 264);
+            this.lblLoanNo.Location = new System.Drawing.Point(9, 296);
             this.lblLoanNo.Name = "lblLoanNo";
             this.lblLoanNo.Size = new System.Drawing.Size(136, 21);
             this.lblLoanNo.TabIndex = 10;
@@ -164,7 +170,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(3, 249);
+            this.label12.Location = new System.Drawing.Point(6, 281);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(102, 15);
             this.label12.TabIndex = 9;
@@ -298,7 +304,9 @@
             this.Column2,
             this.Column3,
             this.Column4,
+            this.Column9,
             this.Column8,
+            this.AmountRemitted,
             this.Column5,
             this.Column6,
             this.Column7,
@@ -333,95 +341,6 @@
             this.dgSummary.Size = new System.Drawing.Size(898, 468);
             this.dgSummary.TabIndex = 5;
             this.dgSummary.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgSummary_CellClick);
-            // 
-            // No
-            // 
-            this.No.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
-            this.No.HeaderText = "#";
-            this.No.Name = "No";
-            this.No.ReadOnly = true;
-            this.No.Width = 5;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Loan No";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 77;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Barrower Name";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 112;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Date Release";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Width = 98;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Principal Amount";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            this.Column4.Width = 123;
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "Due Date";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
-            this.Column8.Width = 80;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Outstanding Cap.";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            this.Column5.Width = 124;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Unearned Interest";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
-            this.Column6.Width = 125;
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Earned Interest";
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
-            this.Column7.Width = 110;
-            // 
-            // Column12
-            // 
-            this.Column12.HeaderText = "Balance";
-            this.Column12.Name = "Column12";
-            this.Column12.ReadOnly = true;
-            this.Column12.Width = 72;
-            // 
-            // Column10
-            // 
-            this.Column10.HeaderText = "Date Paid";
-            this.Column10.Name = "Column10";
-            this.Column10.ReadOnly = true;
-            this.Column10.Width = 82;
-            // 
-            // VeiwLoanDetails
-            // 
-            this.VeiwLoanDetails.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.VeiwLoanDetails.HeaderText = "";
-            this.VeiwLoanDetails.Image = global::Lending_Management_System.Properties.Resources.icons8_view_16;
-            this.VeiwLoanDetails.Name = "VeiwLoanDetails";
-            this.VeiwLoanDetails.ReadOnly = true;
-            this.VeiwLoanDetails.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.VeiwLoanDetails.ToolTipText = "View Loan Details";
-            this.VeiwLoanDetails.Width = 5;
             // 
             // bunifuCustomLabel1
             // 
@@ -505,6 +424,24 @@
             this.label16.TabIndex = 2;
             this.label16.Text = "Lastname / Account No.";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(3, 241);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(83, 15);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "Amount Remit";
+            // 
+            // lblAmountRemit
+            // 
+            this.lblAmountRemit.BackColor = System.Drawing.SystemColors.Control;
+            this.lblAmountRemit.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblAmountRemit.Location = new System.Drawing.Point(6, 256);
+            this.lblAmountRemit.Name = "lblAmountRemit";
+            this.lblAmountRemit.Size = new System.Drawing.Size(136, 21);
+            this.lblAmountRemit.TabIndex = 8;
             // 
             // mainPanel2
             // 
@@ -701,6 +638,109 @@
             this.label6.TabIndex = 1;
             this.label6.Text = "Loan Summary";
             // 
+            // No
+            // 
+            this.No.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
+            this.No.HeaderText = "#";
+            this.No.Name = "No";
+            this.No.ReadOnly = true;
+            this.No.Width = 5;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Loan No";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 77;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Barrower Name";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 112;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Date Release";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 98;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Principal Amount";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Width = 123;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "Maturity Amount";
+            this.Column9.Name = "Column9";
+            this.Column9.ReadOnly = true;
+            this.Column9.Width = 122;
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "Due Date";
+            this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
+            this.Column8.Width = 80;
+            // 
+            // AmountRemitted
+            // 
+            this.AmountRemitted.HeaderText = "Amnt Remit";
+            this.AmountRemitted.Name = "AmountRemitted";
+            this.AmountRemitted.ReadOnly = true;
+            this.AmountRemitted.Width = 94;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Outstanding Cap.";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            this.Column5.Width = 124;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Unearned Interest";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            this.Column6.Width = 125;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Earned Interest";
+            this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
+            this.Column7.Width = 110;
+            // 
+            // Column12
+            // 
+            this.Column12.HeaderText = "Balance";
+            this.Column12.Name = "Column12";
+            this.Column12.ReadOnly = true;
+            this.Column12.Width = 72;
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "Date Paid";
+            this.Column10.Name = "Column10";
+            this.Column10.ReadOnly = true;
+            this.Column10.Width = 82;
+            // 
+            // VeiwLoanDetails
+            // 
+            this.VeiwLoanDetails.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.VeiwLoanDetails.HeaderText = "";
+            this.VeiwLoanDetails.Image = global::Lending_Management_System.Properties.Resources.icons8_view_16;
+            this.VeiwLoanDetails.Name = "VeiwLoanDetails";
+            this.VeiwLoanDetails.ReadOnly = true;
+            this.VeiwLoanDetails.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.VeiwLoanDetails.ToolTipText = "View Loan Details";
+            this.VeiwLoanDetails.Width = 5;
+            // 
             // frmSummary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -777,12 +817,16 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.DateTimePicker dpDateTo;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lblAmountRemit;
+        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.DataGridViewTextBoxColumn No;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AmountRemitted;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;

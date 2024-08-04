@@ -91,8 +91,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox3</rd:DefaultName>
-        <Top>0.12278in</Top>
-        <Left>4.72445in</Left>
+        <Top>0.13666in</Top>
+        <Left>4.2639in</Left>
         <Height>0.25in</Height>
         <Width>0.89583in</Width>
         <ZIndex>2</ZIndex>
@@ -126,8 +126,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox3</rd:DefaultName>
-        <Top>0.44222in</Top>
-        <Left>4.93625in</Left>
+        <Top>0.4561in</Top>
+        <Left>4.4757in</Left>
         <Height>0.25in</Height>
         <Width>0.65625in</Width>
         <ZIndex>3</ZIndex>
@@ -161,8 +161,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox3</rd:DefaultName>
-        <Top>0.77556in</Top>
-        <Left>4.80083in</Left>
+        <Top>0.78944in</Top>
+        <Left>4.34028in</Left>
         <Height>0.23611in</Height>
         <Width>0.79167in</Width>
         <ZIndex>4</ZIndex>
@@ -337,7 +337,7 @@
         <Top>0.74777in</Top>
         <Left>1.4375in</Left>
         <Height>0.25in</Height>
-        <Width>2.98958in</Width>
+        <Width>2.77084in</Width>
         <ZIndex>9</ZIndex>
         <Style>
           <Border>
@@ -372,8 +372,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>pAmount</rd:DefaultName>
-        <Top>0.13667in</Top>
-        <Left>5.66195in</Left>
+        <Top>0.15055in</Top>
+        <Left>5.2014in</Left>
         <Height>0.25in</Height>
         <Width>1.30208in</Width>
         <ZIndex>10</ZIndex>
@@ -410,8 +410,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>totalAmount</rd:DefaultName>
-        <Top>0.77556in</Top>
-        <Left>5.66195in</Left>
+        <Top>0.78944in</Top>
+        <Left>5.2014in</Left>
         <Height>0.25in</Height>
         <Width>1in</Width>
         <ZIndex>11</ZIndex>
@@ -451,7 +451,7 @@
         <Top>1.095in</Top>
         <Left>3.05209in</Left>
         <Height>0.25in</Height>
-        <Width>1.37499in</Width>
+        <Width>1.15625in</Width>
         <ZIndex>12</ZIndex>
         <Style>
           <Border>
@@ -562,8 +562,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>interest</rd:DefaultName>
-        <Top>0.45611in</Top>
-        <Left>5.66195in</Left>
+        <Top>0.46999in</Top>
+        <Left>5.2014in</Left>
         <Height>0.25in</Height>
         <Width>1.30208in</Width>
         <ZIndex>15</ZIndex>
@@ -600,8 +600,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox3</rd:DefaultName>
-        <Top>1.095in</Top>
-        <Left>4.88542in</Left>
+        <Top>1.10888in</Top>
+        <Left>4.42487in</Left>
         <Height>0.25in</Height>
         <Width>0.73486in</Width>
         <ZIndex>16</ZIndex>
@@ -633,8 +633,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>duration</rd:DefaultName>
-        <Top>1.095in</Top>
-        <Left>5.66195in</Left>
+        <Top>1.10888in</Top>
+        <Left>5.2014in</Left>
         <Height>0.25in</Height>
         <Width>0.75125in</Width>
         <ZIndex>17</ZIndex>
@@ -743,7 +743,7 @@
         <Top>0.42833in</Top>
         <Left>1.46527in</Left>
         <Height>0.25in</Height>
-        <Width>2.9757in</Width>
+        <Width>2.74307in</Width>
         <ZIndex>20</ZIndex>
         <Style>
           <Border>
@@ -781,7 +781,7 @@
         <Top>0.10888in</Top>
         <Left>1.47917in</Left>
         <Height>0.25in</Height>
-        <Width>2.9618in</Width>
+        <Width>2.72917in</Width>
         <ZIndex>21</ZIndex>
         <Style>
           <Border>
@@ -806,7 +806,7 @@
               <Width>0.76034in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.87618in</Width>
+              <Width>0.90335in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>0.99423in</Width>
@@ -815,7 +815,7 @@
               <Width>0.99423in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.71993in</Width>
+              <Width>2.87836in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -1321,7 +1321,7 @@
         <Top>1.74777in</Top>
         <Left>0.25979in</Left>
         <Height>0.5in</Height>
-        <Width>7.41448in</Width>
+        <Width>7.60008in</Width>
         <ZIndex>22</ZIndex>
         <Style>
           <Border>
@@ -1349,8 +1349,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox3</rd:DefaultName>
-        <Top>1.38666in</Top>
-        <Left>4.88542in</Left>
+        <Top>1.35888in</Top>
+        <Left>4.46654in</Left>
         <Height>0.25in</Height>
         <Width>0.73486in</Width>
         <ZIndex>23</ZIndex>
@@ -1382,10 +1382,10 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Balance1</rd:DefaultName>
-        <Top>1.37278in</Top>
-        <Left>5.66195in</Left>
+        <Top>1.38666in</Top>
+        <Left>5.2014in</Left>
         <Height>0.25in</Height>
-        <Width>1in</Width>
+        <Width>0.86458in</Width>
         <ZIndex>24</ZIndex>
         <Style>
           <Border>
@@ -1394,6 +1394,77 @@
           <BottomBorder>
             <Style>Solid</Style>
           </BottomBorder>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Balance2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Parameters!remit.Value</Value>
+                <Style>
+                  <FontFamily>Segoe UI</FontFamily>
+                  <FontSize>9pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Balance1</rd:DefaultName>
+        <Top>1.35889in</Top>
+        <Left>7.01264in</Left>
+        <Height>0.25in</Height>
+        <Width>0.84722in</Width>
+        <ZIndex>25</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BottomBorder>
+            <Style>Solid</Style>
+          </BottomBorder>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox39">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>REMITTANCE:</Value>
+                <Style>
+                  <FontFamily>Segoe UI</FontFamily>
+                  <FontSize>9pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox3</rd:DefaultName>
+        <Top>1.35889in</Top>
+        <Left>6.13542in</Left>
+        <Height>0.25in</Height>
+        <Width>0.86333in</Width>
+        <ZIndex>26</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
           <PaddingLeft>2pt</PaddingLeft>
           <PaddingRight>2pt</PaddingRight>
           <PaddingTop>2pt</PaddingTop>
@@ -1670,6 +1741,12 @@
       <Prompt>ReportParameter1</Prompt>
     </ReportParameter>
     <ReportParameter Name="Balance">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="remit">
       <DataType>String</DataType>
       <Nullable>true</Nullable>
       <AllowBlank>true</AllowBlank>

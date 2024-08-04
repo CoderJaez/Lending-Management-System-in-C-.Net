@@ -41,7 +41,7 @@ namespace Lending_Management_System
                 new Microsoft.Reporting.WinForms.ReportParameter("TotalAmount",appLoan.maturityValue.ToString("N")),
                 new Microsoft.Reporting.WinForms.ReportParameter("Term",appLoan.Terms),
                 new Microsoft.Reporting.WinForms.ReportParameter("Days",appLoan.duration),
-                new Microsoft.Reporting.WinForms.ReportParameter("DailyPayment",appLoan.perRemit())
+                new Microsoft.Reporting.WinForms.ReportParameter("DailyPayment",appLoan.perRemit()),
            };
             this.reportViewer1.LocalReport.SetParameters(p);
             if (days <= 60)

@@ -38,7 +38,8 @@ namespace Lending_Management_System
                 new Microsoft.Reporting.WinForms.ReportParameter("cpno",b.ContactNo),
                 new Microsoft.Reporting.WinForms.ReportParameter("term",appLoan.Terms),
                 new Microsoft.Reporting.WinForms.ReportParameter("duration",appLoan.duration),
-                new Microsoft.Reporting.WinForms.ReportParameter("Balance",appLoan.totalBal())
+                new Microsoft.Reporting.WinForms.ReportParameter("Balance",appLoan.totalBal()),
+                new Microsoft.Reporting.WinForms.ReportParameter("remit",appLoan.totalRemit())
              };
             this.LegderRV.LocalReport.SetParameters(p);
             

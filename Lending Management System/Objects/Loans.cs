@@ -17,10 +17,12 @@ namespace Lending_Management_System.Objects
         public string DateRelease { get; set; }
         public string Area { get; set; }
         public decimal PrincipalAmount { get; set; }
+        public decimal MaturityValue { get; set; }
         public decimal OutstandingCapital { get; set; }
         public decimal AccruedInterest { get; set; }
         public decimal EarnedInterest { get; set; }
         public decimal Balance { get; set; }
+        public decimal AmountRemit { get; set; }
         public string DateFullyPaid { get;set; }
         public string DueDate { get; set; }
         public string DaysElapse { get; set; }

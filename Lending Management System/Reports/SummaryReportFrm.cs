@@ -33,13 +33,13 @@ namespace Lending_Management_System
         {
             LoanModel loan = new LoanModel();
             LoansBindingSource.DataSource = loan.getSummaryLoans(search,where);
-            System.Drawing.Printing.PageSettings pg = new System.Drawing.Printing.PageSettings();
-            pg.Margins.Top = 0;
-            pg.Margins.Bottom = 0;
-            pg.Margins.Left = 0;
-            pg.Margins.Right = 0;
-            pg.Landscape = true;
-            this.reportViewer1.SetPageSettings(pg);
+            //System.Drawing.Printing.PageSettings pg = new System.Drawing.Printing.PageSettings();
+            //pg.Margins.Top = 0;
+            //pg.Margins.Bottom = 0;
+            //pg.Margins.Left = 0;
+            //pg.Margins.Right = 0;
+            //pg.Landscape = true;
+            //this.reportViewer1.SetPageSettings(pg);
             this.reportViewer1.RefreshReport();
         }
 

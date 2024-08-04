@@ -24,6 +24,7 @@ namespace Lending_Management_System
         private double Balance = 0;
         private double AcruedInterest = 0;
         private double EarnedInterest = 0;
+        private double AmountRemit = 0;
         LoanModel _summary = new LoanModel();
 
         private void LoadProvince()
@@ -79,14 +80,27 @@ namespace Lending_Management_System
             Balance = 0;
             AcruedInterest = 0;
             EarnedInterest = 0;
+            AmountRemit = 0;
             foreach (DataRow row in _summary.summaryLoans(SearchTxt.Text,where).Rows)
             {
-                dgSummary.Rows.Add(n, row["loanNo"].ToString(), row["bname"].ToString(), Convert.ToDateTime(row["effectiveDate"]).ToShortDateString(), Convert.ToDouble(row["principalAmount"]).ToString("N"), Convert.ToDateTime(row["matDate"]).ToShortDateString(),Convert.ToDouble(row["outstandingCapital"]).ToString("N"), Convert.ToDouble(row["unearnedInterest"]).ToString("N"), Convert.ToDouble(row["earnedInterest"]).ToString("N"), Convert.ToDouble(row["balance"]).ToString("N"),((bool)row["paid"]) ? Convert.ToDateTime(row["date_fullyPaid"]).ToShortDateString():"");
+                double val;
                 PrincipalAmount += (double)row["principalAmount"];
                 OutstandingCapital += (double)row["outstandingCapital"];
                 Balance += (double)row["balance"];
                 AcruedInterest += (double)row["unearnedInterest"];
                 EarnedInterest += (double)row["earnedInterest"];
+                if (double.TryParse(row["amountRemit"].ToString(), out val))
+                {
+                    AmountRemit += (double)(row["amountRemit"]);
+                    val = (double)(row["amountRemit"]);
+                }
+                else
+                {
+                    val = 0;
+                }
+
+                dgSummary.Rows.Add(n, row["loanNo"].ToString(), row["bname"].ToString(), Convert.ToDateTime(row["effectiveDate"]).ToShortDateString(), Convert.ToDouble(row["principalAmount"]).ToString("N"), Convert.ToDouble(row["matValue"]).ToString("N"), Convert.ToDateTime(row["matDate"]).ToShortDateString(),val.ToString("N"),Convert.ToDouble(row["outstandingCapital"]).ToString("N"), Convert.ToDouble(row["unearnedInterest"]).ToString("N"), Convert.ToDouble(row["earnedInterest"]).ToString("N"), Convert.ToDouble(row["balance"]).ToString("N"),((bool)row["paid"]) ? Convert.ToDateTime(row["date_fullyPaid"]).ToShortDateString():"");
+                
                 n++;
             }
 
@@ -96,6 +110,7 @@ namespace Lending_Management_System
             lblAccruedInt.Text = AcruedInterest.ToString("N");
             lblEarnedInt.Text = EarnedInterest.ToString("N");
             lblLoanNo.Text = (n-1).ToString();
+            lblAmountRemit.Text = AmountRemit.ToString("N");
         }
         public string _where()
         {
